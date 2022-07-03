@@ -23,6 +23,15 @@ function Projects() {
                 <p> Website that consumes an API to return movies and series database, I built this to improve my front end skills with reactJS. You can acess the source code <a href='https://github.com/cairomedeiros/Projeto-filmes' target="_blank">here!</a></p>
                 <small>HTML | CSS | JS | REACTJS</small>
               </div>
+
+              <div className='card'>
+                <a  href='https://project-flix.netlify.app/'>
+                <img className="imgCard" src={flix} alt="img" width="350px" height="200px"/>
+                </a>
+                <h2>3. Busca-Repos</h2>
+                <p> Website that consumes an API to return movies and series database, I built this to improve my front end skills with reactJS. You can acess the source code <a href='https://github.com/cairomedeiros/Projeto-filmes' target="_blank">here!</a></p>
+                <small>HTML | STYLED COMPONENTS | JS | REACTJS</small>
+              </div>
           </div>
       </div>
     )

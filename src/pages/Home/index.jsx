@@ -36,20 +36,20 @@ function Home() {
 
             <div className='skills-box'>
                 <p>Front-end</p>
-                <DiHtml5 color="#e44d26" size={60}/>
-                <DiCss3 color="#1572b6" size={60}/>
-                <DiJavascript1 color="#f0db4f" size={60}/>
+                <DiHtml5 color="#e44d26" size={80}/>
+                <DiCss3 color="#1572b6" size={80}/>
+                <DiJavascript1 color="#f0db4f" size={80}/>
             </div>
             <div className='skills-box'>
                 <p>FrameWorks</p>
-                <DiReact color=" #61dafb" size={60}/>
-                <SiRedux color="#764abc" size={60}/>
+                <DiReact color=" #61dafb" size={80}/>
+                <SiRedux color="#764abc" size={80}/>
                 
             </div>
             <div className='skills-box'>
                 <p>Tools</p>
-                <DiGit color="#f34f29" size={60}/>
-                <SiFirebase color="#f58220" size={60}/>
+                <DiGit color="#f34f29" size={80}/>
+                <SiFirebase color="#f58220" size={80}/>
                 
             </div>
         </div>

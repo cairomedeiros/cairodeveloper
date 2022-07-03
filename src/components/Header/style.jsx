@@ -2,13 +2,17 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
 
+    //position: fixed;
     background-color: #181818;
     height: 50px;
     width: 100%;
     border-bottom: 1px solid #242424;
+    display: flex;
+    justify-content: center;
     
 
     nav{
+        width: 80%;
         height: 100%;
         display: flex;
         justify-content: space-between;
@@ -16,12 +20,10 @@ export const HeaderContainer = styled.header`
         
     }
 
-    nav .logo{
-        padding-left: 7%;
-    }
+   
 
     nav .infos{
-        padding-right: 7%;
+        
         display: flex;
         align-items: center;
        

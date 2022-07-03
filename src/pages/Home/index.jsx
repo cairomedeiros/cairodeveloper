@@ -1,14 +1,62 @@
 import './style.css';
+import perfil from '../../assets/perfil.jpg';
+import { DiHtml5, DiCss3, DiJavascript1, DiReact, DiGit } from 'react-icons/di';
+import { SiRedux, SiFirebase } from 'react-icons/si';
+
 
 function Home() {
   
 
     return (
-      <div className='container'>
+      <main className='container'>
+
+        <div className='container-content'>
+            <div>
+                <h1 className='title'>
+                    Hello, World! <strong>I am Cairo Medeiros</strong>
+                </h1>
+
+                <p className='texto'>I'm a frontend developer. This web page is to show my projects and challenges.</p>
+            </div>
+
+            <div className='img'>
+                <img src={perfil} alt="picture" width="300px"/>
+            </div>
+
+            
+
+        </div>
+
+            <div className='skills'>
+                <h1>My Skills</h1>
+                <p>This is my main technologies:</p>
+            </div>
+
+        <div className='skills-container'>
+
+            <div className='skills-box'>
+                <p>Front-end</p>
+                <DiHtml5 color="#e44d26" size={60}/>
+                <DiCss3 color="#1572b6" size={60}/>
+                <DiJavascript1 color="#f0db4f" size={60}/>
+            </div>
+            <div className='skills-box'>
+                <p>FrameWorks</p>
+                <DiReact color=" #61dafb" size={60}/>
+                <SiRedux color="#764abc" size={60}/>
+                
+            </div>
+            <div className='skills-box'>
+                <p>Tools</p>
+                <DiGit color="#f34f29" size={60}/>
+                <SiFirebase color="#f58220" size={60}/>
+                
+            </div>
+        </div>
 
         
         
-      </div>
+      </main>
     )
   }
   

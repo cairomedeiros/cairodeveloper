@@ -5,9 +5,7 @@ function Projects() {
 
     return (
       <div>
-        <h1>
-            Projects - Cards
-        </h1>
+          oi
       </div>
     )
   }

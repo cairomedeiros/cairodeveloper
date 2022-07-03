@@ -19,8 +19,8 @@ function Home() {
                 <p className='texto'>I'm a frontend developer. This web page is to show my projects and challenges.</p>
             </div>
 
-            <div className='img'>
-                <img src={perfil} alt="picture" width="300px"/>
+            <div>
+                <img  className='img' src={perfil} alt="picture" width="300px"/>
             </div>
 
             

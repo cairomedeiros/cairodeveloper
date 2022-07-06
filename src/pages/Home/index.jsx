@@ -20,7 +20,7 @@ function Home() {
             </div>
 
             <div>
-                <img  className='img' src={perfil} alt="picture" width="300px"/>
+                <img  className='img' src={perfil} alt="picture" width="250px"/>
             </div>
 
             
@@ -35,19 +35,19 @@ function Home() {
         <div className='skills-container'>
 
             <div className='skills-box'>
-                <p>Front-end</p>
+                <p className='skills-p'>Front-end</p>
                 <DiHtml5 color="#e44d26" size={80}/>
                 <DiCss3 color="#1572b6" size={80}/>
                 <DiJavascript1 color="#f0db4f" size={80}/>
             </div>
             <div className='skills-box'>
-                <p>FrameWorks</p>
+                <p className='skills-p'>FrameWorks</p>
                 <DiReact color=" #61dafb" size={80}/>
                 <SiRedux color="#764abc" size={80}/>
                 
             </div>
             <div className='skills-box'>
-                <p>Tools</p>
+                <p className='skills-p'>Tools</p>
                 <DiGit color="#f34f29" size={80}/>
                 <SiFirebase color="#f58220" size={80}/>
                 

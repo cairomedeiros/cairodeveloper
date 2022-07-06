@@ -5,12 +5,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 100px;
     
     
 }
 
 .container-card{
     width: 80%;
+    max-width: 1440px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -25,7 +27,7 @@
     margin: 20px;
     transition: box-shadow .2s;
     background-color: #e2dddd;
-    width: 360px;
+    width: 330px;
     height: 450px;
     border-radius: 5px;
 
@@ -63,4 +65,35 @@
 
 small{
     color: #242424;
+}
+
+@media only screen and (max-width: 1425px) {
+    .container-card{ 
+        width: 100%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 382px){
+    .card{
+        padding-right: 10px;
+    }
+}
+@media only screen and (max-width: 351px){
+    .card{
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 342px){
+    .card{
+        width: 300px;
+    }
+
+    .imgCard{
+        width: 280px;
+        height: 140px;
+        margin-top: 5px;
+    }
 }
